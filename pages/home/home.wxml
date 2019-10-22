@@ -1,0 +1,32 @@
+<!--pages/home/home.wxml-->
+<!--登陆者区域-->
+<view class='home-first-style'>
+  <van-row>
+    <van-col span="5">
+      <image class="app-image-userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="scaleToFill"></image>
+    </van-col>
+    <van-col span="16">
+      <view style="margin:40rpx 0rpx 0rpx 0rpx;">
+        <text style="margin:0rpx 40rpx 0rpx 0rpx;">{{userInfo.nickName}}</text>
+        <van-tag color="#19BE6B" size="large" round>{{userInfo.roleName}}</van-tag>
+      </view>
+    </van-col>
+    <van-col span="3">
+      <view style="margin:50rpx 0rpx 0rpx 0rpx;">
+        <van-icon name="contact" info="0" color="#FFFFFF" />
+      </view>
+    </van-col>
+  </van-row>
+</view>
+
+<view>
+  <van-button type="info" icon="add-o" bind:click="aaa">aaa</van-button>
+</view>
+<text>{{sysInfo.name}}</text>
+<view>
+
+<text>123{{test}}</text>
+</view>
+
+<text>pages/home/home.wxml</text>
+<view>哇哈哈哈哈</view>

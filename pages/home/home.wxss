@@ -1,0 +1,23 @@
+/* miniprogram/pages/home/home.wxss */
+
+.home-first-style {
+  margin: 10rpx 0rpx 0rpx 0rpx;
+  color: #FFFFFF;
+  background:#2D8CF0;
+}
+
+.order-style-a {
+  color: #FF9900;
+}
+.order-style-b {
+  color: #5CADFF;
+}
+.order-style-c {
+  color: #2B85E4;
+}
+.order-style-d {
+  color: #19BE6B;
+}
+
+
+

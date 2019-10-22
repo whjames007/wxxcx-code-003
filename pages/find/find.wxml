@@ -1,0 +1,7 @@
+<!--pages/find/find.wxml-->
+<text>pages/find/find.wxml</text>
+
+<view>
+<van-button type="info">信息按钮</van-button>
+</view>
+<van-circle :value="{{ 30 }}" />

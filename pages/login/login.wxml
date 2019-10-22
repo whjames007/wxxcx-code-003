@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<view class="login-name-style">
+  <text>{{sysInfo.name}}</text>
+</view>
+<view class="login-desc-style">
+  <text>{{sysInfo.desc}}</text>
+</view>
+<view class="login-version-style">
+  <text>{{sysInfo.version}}</text>
+</view>
+<view>
+  <van-button type="info" icon="add-o" size="large" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="methodGotUserInfo">微信授权登录</van-button>
+</view>
